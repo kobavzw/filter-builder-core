@@ -14,6 +14,7 @@ class English implements Translationinterface
             ErrorMessage::INVALID_GROUP => 'Invalid group',
             ErrorMessage::INVALID_GROUP_OPERATION => 'Invalid operation for a group',
             ErrorMessage::INVALID_CONFIGURATION => 'Invalid configuration',
+            ErrorMessage::INVALID_RULE => 'Invalid rule',
         };
     }
 

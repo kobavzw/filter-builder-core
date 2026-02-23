@@ -59,6 +59,8 @@ class BoundFilterFactory implements BoundFilterFactoryInterface
                 if ($boundFilter !== null) {
                     $children[] = $boundFilter;
                 }
+            } else {
+                $fail($this->configuration->getTranslation()->translateError(ErrorMessage::INVALID_RULE));
             }
         }
 
